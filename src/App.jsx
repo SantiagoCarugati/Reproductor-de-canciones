@@ -116,7 +116,7 @@ function App() {
             </div>
           )}
         </div>
-        <h2 style={{ marginBottom: '15px', color: '#333' }}>Lista de Canciones</h2>
+      
         <SongList
           songs={filteredSongs}
           onRemoveSong={handleRemoveSong}
